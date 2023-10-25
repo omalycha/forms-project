@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: url(images/Rose\ bg.jpg);
+}
+
+
+.main-container {
+    border: 1px solid white;
+    border-radius: 40px;
+    margin: 30px 60px;
+    width: 900px;
+    background-color: #fff;
+   
+     
+}
+.heading {
+    text-align: center;
+    font-size: 1rem;
+
+}
+
+
+.forms {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.email, .name, .phone, .address {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    
+}
+.message {
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 73%;
+    margin-left: 35px;
+    margin-bottom: 20px; 
+}
+.btn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.submit {
+   padding: 15px 40px;
+   background: orangered;
+   color: #fff;
+   border: none;
+}
+@media (min-width: 500px) and (max-width: 800px) {
+    .main-container {
+        background-color: orange;
+    }
+}
+
+
